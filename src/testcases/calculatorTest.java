@@ -13,8 +13,8 @@ public class calculatorTest extends TestCase {
     }
 
     @org.junit.Test
-    public void add() {
-        int expected = 40;
+    public void testadd() {
+        int expected = 30;
         int actual = Calculator.add(10,20);
         System.out.println("expected ="+expected+"-actual ="+actual);
         assertEquals(expected,actual);
