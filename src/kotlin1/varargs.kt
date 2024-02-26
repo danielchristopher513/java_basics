@@ -4,7 +4,7 @@ class varargs {
 }
 
 fun main() {
-    fun printAll(vararg messages: String) {                            // 1
+    fun printAll(vararg messages: String) {
         for (m in messages) println(m)
     }
     printAll("Hello", "Hallo", "Salut", "Hola", "你好")
