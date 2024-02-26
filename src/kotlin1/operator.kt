@@ -11,4 +11,5 @@ fun main() {
     operator fun String.get(range: IntRange) = substring(range)
     val str = "Always forgive your enemies; nothing annoys them so much."
     println(str[0..14])
+
 }
